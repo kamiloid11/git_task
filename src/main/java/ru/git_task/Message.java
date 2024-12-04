@@ -50,4 +50,11 @@ public class Message {
     public void setTimeAndDate(String timeAndDate) {
         this.timeAndDate = timeAndDate;
     }
+
+    public void printMessage() {
+        System.out.println("Sender: " + sender);
+        System.out.println("Recipient: " + recipient);
+        System.out.println("Text: " + textMessage);
+        System.out.println("Date and time: " + timeAndDate);
+    }
 }
