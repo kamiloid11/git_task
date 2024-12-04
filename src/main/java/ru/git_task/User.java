@@ -47,4 +47,8 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public void printUser(){
+        System.out.println(username + "/n" + name + "/n" + number + "/n" + password);
+    }
 }
