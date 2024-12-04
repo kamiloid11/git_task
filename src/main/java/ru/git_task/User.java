@@ -49,6 +49,6 @@ public class User {
     }
 
     public void printUser(){
-        System.out.println(username + "/n" + name + "/n" + number + "/n" + password);
+        System.out.println(username + "\n" + name + "\n" + number + "\n" + password);
     }
 }
