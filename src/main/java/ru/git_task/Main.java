@@ -1,4 +1,4 @@
 package ru.git_task;
 
-public class Main {
+public class Main {   
 }
